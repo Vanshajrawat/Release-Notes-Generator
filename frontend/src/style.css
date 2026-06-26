@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial, sans-serif; padding: 24px; }
+.app { max-width: 800px; margin: auto; }
+.controls { display:flex; gap:8px; margin-bottom:12px }
+.controls input { padding:8px; flex:1 }
+.controls button { padding:8px 12px }
+.chat { border:1px solid #eee; padding:12px; min-height:200px }
+.message { margin-bottom:10px }
+.message.bot pre { background:#f9f9f9; padding:10px }
